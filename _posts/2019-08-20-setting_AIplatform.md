@@ -24,7 +24,7 @@ tags: AI, GPU, GCP, Docker, Tensorflow, Deep learning, deepo
 * try free: $300 쿼터 기본 제공
 * IAM&admin, Upgrade account, GPU 사용 신청 (2일) => 기본은 0
 * 구글은 성능 순으로 K80<P100<V100 등의 GPU 가능
-![](/assests/20190820/GPUK80P100V100.png)
+![](/assets/20190820/GPUK80P100V100.png)
  * 참고로 자체 보유하고 있는 서버: M40 25G x 2
 * k80은 테스트용, v100 은 실제 러닝용으로 계획
 * K80<M40<P100<V100
@@ -216,7 +216,7 @@ sudo shutdown -r now
 
 * 출처:  https://hiseon.me/2018/06/23/tensorflow-benchmark/
 * tensorflow 가 최신 버전이 아닌 경우 (nightly version) 로 가져와야 실행됨
-![](http://assests/20190820/tensorflow_tag.png)
+![](http://assets/20190820/tensorflow_tag.png)
 ```
 	docker pull tensorflow/tensorflow:nightly-gpu-py3-jupyter
     nvidia-docker run -it -v /docker/data:/root/data --rm tensorflow/tensorflow:nightly-gpu-py3-jupyter bash
