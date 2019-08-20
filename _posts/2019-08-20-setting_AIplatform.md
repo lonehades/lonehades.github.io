@@ -17,10 +17,10 @@ tags: AI, GPU, GCP, Docker, Tensorflow, Deep learning, deepo
 
 # 구글 클라우드 가입 및 GPU 쿼터 얻기
 * 구글 클라우드 가입 및 기본적인 설정, GPU 쿼터 신청, VM 실행하기
- * 테리의 구글 클라우드로 딥러딩 시작하기:  https://www.youtube.com/watch?v=d4mz9YIf6Gc&list=PL0oFI08O71gKEXITQ7OG2SCCXkrtid7Fq&index=26&t=0s
- * mc.ai, GCP VM 에서 NVIDA GPU를 사용해보자:  https://mc.ai/gcp-vm%EC%97%90%EC%84%9C-nvidia-gpu%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90/
+ * 테리의 구글 클라우드로 딥러딩 시작하기:  [https://www.youtube.com/watch?v=d4mz9YIf6Gc&list=PL0oFI08O71gKEXITQ7OG2SCCXkrtid7Fq&index=26&t=0s](https://www.youtube.com/watch?v=d4mz9YIf6Gc&list=PL0oFI08O71gKEXITQ7OG2SCCXkrtid7Fq&index=26&t=0s)
+ * mc.ai, GCP VM 에서 NVIDA GPU를 사용해보자:  [https://mc.ai/gcp-vm%EC%97%90%EC%84%9C-nvidia-gpu%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90/](https://mc.ai/gcp-vm%EC%97%90%EC%84%9C-nvidia-gpu%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90/)
  * 위 mc.ai에서  구글 클라우드 설정 및 쿼터 신청에 더 자세한 내용 참조
-* 가입하기: https://cloud.google.com/ 
+* 가입하기: [https://cloud.google.com/](https://cloud.google.com/) 
 * try free: $300 쿼터 기본 제공
 * IAM&admin, Upgrade account, GPU 사용 신청 (2일) => 기본은 0
 * 구글은 성능 순으로 K80<P100<V100 등의 GPU 가능
@@ -44,12 +44,12 @@ GCP 방화벽 규칙 생성: Jupyter Notebook 과 Tensorboard 를 사용하기 �
 # Docker를 활용해서 AI 플랫폼 구축
 
 
-* 출처: UBUNTU 18.04 설치 #2-3 INSTALL TENSORFLOW WITH DOCKER: https://eungbean.github.io/2018/11/09/Ubuntu-Installation2-3/
+* 출처: UBUNTU 18.04 설치 #2-3 INSTALL TENSORFLOW WITH DOCKER: [https://eungbean.github.io/2018/11/09/Ubuntu-Installation2-3/](https://eungbean.github.io/2018/11/09/Ubuntu-Installation2-3/)
 
 ##### OS 설치 또는 VM 설정
 
-* Ubuntu 18.04 설치:  https://eungbean.github.io/2018/08/08/Ubuntu-Installation1/     
-* Google Cloud Platform VM 설치시:  https://mc.ai/gcp-vm%EC%97%90%EC%84%9C-nvidia-gpu%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90/           
+* Ubuntu 18.04 설치:  [https://eungbean.github.io/2018/08/08/Ubuntu-Installation1/](https://eungbean.github.io/2018/08/08/Ubuntu-Installation1/)     
+* Google Cloud Platform VM 설치시:  [https://mc.ai/gcp-vm%EC%97%90%EC%84%9C-nvidia-gpu%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90/](https://mc.ai/gcp-vm%EC%97%90%EC%84%9C-nvidia-gpu%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90/)           
 
     * -네트워킹 > VPC 네트워크 > 방화벽 규칙     
     1) 이름: jupyter
@@ -84,12 +84,12 @@ GCP 방화벽 규칙 생성: Jupyter Notebook 과 Tensorboard 를 사용하기 �
       pip3 --version               # 설치 확인
 ```
 
-##### Graphic Driver 설치:  https://www.linuxbabe.com/ubuntu/install-nvidia-driver-ubuntu-18-04
+##### Graphic Driver 설치:  [https://www.linuxbabe.com/ubuntu/install-nvidia-driver-ubuntu-18-04](https://www.linuxbabe.com/ubuntu/install-nvidia-driver-ubuntu-18-04)
 * ubuntu-drivers 가 실행이 안될때 (구글 클라우드)
   sudo apt install ubuntu-drivers-common
 * GPU 종류와 CUDA 킷에 따라 적절한 그래픽 driver 를 설치 하는 것이 중요
 * ufoym/deepo 는 18.04 에서 CUDA 10.0 이 필요해서 여기에 맞는 driver 를 검색:
-  https://www.nvidia.com/Download/index.aspx?lang=en-us
+  [https://www.nvidia.com/Download/index.aspx?lang=en-us](https://www.nvidia.com/Download/index.aspx?lang=en-us)
   docker 에서 실제 설치된 버전을 확인해보니 CUDA 9.0 임
   root@tf3j:~# nvcc --version
   nvcc: NVIDIA (R) Cuda compiler driver            
@@ -99,7 +99,7 @@ GCP 방화벽 규칙 생성: Jupyter Notebook 과 Tensorboard 를 사용하기 �
 * tensorflow docker image 는 CUDA 9.0 이 필요함.
 * 회사 서버 Tesla M40 은 위 두 경우 모두 nvidia driver 410.xxx 를 깔면 해결 됨.
   아래엔 Tesla GPU 의 경우 10.0은 >=384.111, <385.00 으로 되어 있지만 410 을 설치해도 잘됨.
-  https://github.com/NVIDIA/nvidia-docker/wiki/CUDA
+  [https://github.com/NVIDIA/nvidia-docker/wiki/CUDA](https://github.com/NVIDIA/nvidia-docker/wiki/CUDA)
 sudo add-apt-repository ppa:graphics-drivers/ppa
 최신 드라이버 설치 법:
 sudo ubuntu-drivers devices
@@ -109,7 +109,7 @@ sudo shutdown -r now
 * 결론 회사 서버 M40 및 GCP는  nvidia-driver-410 으로 설치
 
 ##### Docker 설치:
-* 초보를 위한 안내문 도커란 무엇인가?: https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html
+* 초보를 위한 안내문 도커란 무엇인가?: [https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
 ```
     #Update the apt package index: 
     sudo apt-get update
@@ -214,9 +214,9 @@ sudo shutdown -r now
 
 ##### 설치 후 AI 서버 성능측정
 
-* 출처:  https://hiseon.me/2018/06/23/tensorflow-benchmark/
+* 출처:  [https://hiseon.me/2018/06/23/tensorflow-benchmark/](https://hiseon.me/2018/06/23/tensorflow-benchmark/)
 * tensorflow 가 최신 버전이 아닌 경우 (nightly version) 로 가져와야 실행됨
-![](http://assets/20190820/tensorflow_tag.png)
+![](/assets/20190820/tensorflow_tag.png)
 ```
 	docker pull tensorflow/tensorflow:nightly-gpu-py3-jupyter
     nvidia-docker run -it -v /docker/data:/root/data --rm tensorflow/tensorflow:nightly-gpu-py3-jupyter bash
@@ -249,7 +249,7 @@ sudo shutdown -r now
 
 * 메모리 때문에 주피터 커널이 죽는 경우가 발생.
 * nvtop 으로 메모리 모니터링 및 관리
-* 출처:    https://github.com/Syllo/nvtop#nvtop-build
+* 출처:    [https://github.com/Syllo/nvtop#nvtop-build](https://github.com/Syllo/nvtop#nvtop-build)
 ```
 	#docker 컨태이너로 접속
 	apt-get update
