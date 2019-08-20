@@ -6,7 +6,7 @@ categories:
 tags: AI, GPU, GCP, Docker, Tensorflow, Deep learning, deepo
 ---
 
-# 0. 설치 요약
+# 설치 요약
 * GPU 서버 준비 또는 구글 GCP 가입 및 GPU 쿼터 얻기
 * 우분투 18.04 설치
 * NDVIA 그래픽 드라이버 설치
@@ -15,7 +15,7 @@ tags: AI, GPU, GCP, Docker, Tensorflow, Deep learning, deepo
 * 설치 후 서버 성능 측정
 
 
-#  1. 구글 클라우드 가입 및 GPU 쿼터 얻기
+# 구글 클라우드 가입 및 GPU 쿼터 얻기
 * 구글 클라우드 가입 및 기본적인 설정, GPU 쿼터 신청, VM 실행하기
  * 테리의 구글 클라우드로 딥러딩 시작하기:  https://www.youtube.com/watch?v=d4mz9YIf6Gc&list=PL0oFI08O71gKEXITQ7OG2SCCXkrtid7Fq&index=26&t=0s
  * mc.ai, GCP VM 에서 NVIDA GPU를 사용해보자:  https://mc.ai/gcp-vm%EC%97%90%EC%84%9C-nvidia-gpu%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90/
@@ -24,7 +24,7 @@ tags: AI, GPU, GCP, Docker, Tensorflow, Deep learning, deepo
 * try free: $300 쿼터 기본 제공
 * IAM&admin, Upgrade account, GPU 사용 신청 (2일) => 기본은 0
 * 구글은 성능 순으로 K80<P100<V100 등의 GPU 가능
-![](/assest/20190820/GPUK80P100V100.png)
+![](/assests/20190820/GPUK80P100V100.png)
  * 참고로 자체 보유하고 있는 서버: M40 25G x 2
 * k80은 테스트용, v100 은 실제 러닝용으로 계획
 * K80<M40<P100<V100
@@ -41,12 +41,12 @@ Preemtibility on 하면 반값
 회색: VM 현재 꺼져 있음. HDD/SDD 만 과금!
 GCP 방화벽 규칙 생성: Jupyter Notebook 과 Tensorboard 를 사용하기 위해 포트 접근 허용네트워킹>VPC 네트워크>방화벽 규칙
 
-# 2. Docker를 활용해서 AI 플랫폼 구축
+# Docker를 활용해서 AI 플랫폼 구축
 
 
 * 출처: UBUNTU 18.04 설치 #2-3 INSTALL TENSORFLOW WITH DOCKER: https://eungbean.github.io/2018/11/09/Ubuntu-Installation2-3/
 
-#####1. OS 설치 또는 VM 설정
+##### OS 설치 또는 VM 설정
 
 * Ubuntu 18.04 설치:  https://eungbean.github.io/2018/08/08/Ubuntu-Installation1/     
 * Google Cloud Platform VM 설치시:  https://mc.ai/gcp-vm%EC%97%90%EC%84%9C-nvidia-gpu%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90/           
@@ -74,7 +74,7 @@ GCP 방화벽 규칙 생성: Jupyter Notebook 과 Tensorboard 를 사용하기 �
     10. (네트워킹) 네트워크 태그: jupyter, tensorboard (필수)                 
     11. (관리)선점 가능성: 사용안함 (선택사항)        
 
-#####2. python3 과 pip3 설치
+##### python3 과 pip3 설치
 ```
       sudo apt update      
       sudo apt-get install gnome-tweak-tool      
@@ -84,7 +84,7 @@ GCP 방화벽 규칙 생성: Jupyter Notebook 과 Tensorboard 를 사용하기 �
       pip3 --version               # 설치 확인
 ```
 
-#####3. Graphic Driver 설치:  https://www.linuxbabe.com/ubuntu/install-nvidia-driver-ubuntu-18-04
+##### Graphic Driver 설치:  https://www.linuxbabe.com/ubuntu/install-nvidia-driver-ubuntu-18-04
 * ubuntu-drivers 가 실행이 안될때 (구글 클라우드)
   sudo apt install ubuntu-drivers-common
 * GPU 종류와 CUDA 킷에 따라 적절한 그래픽 driver 를 설치 하는 것이 중요
@@ -108,7 +108,7 @@ sudo apt install nvidia-driver-version-number
 sudo shutdown -r now
 * 결론 회사 서버 M40 및 GCP는  nvidia-driver-410 으로 설치
 
-#####4. Docker 설치:
+##### Docker 설치:
 * 초보를 위한 안내문 도커란 무엇인가?: https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html
 ```
     #Update the apt package index: 
@@ -143,7 +143,7 @@ sudo shutdown -r now
    # your-user 사용자에게 권한주기           
 ```   
 
-#####5. Nvidia-docker 설치                        
+##### Nvidia-docker 설치                        
 ```
 	# If you have nvidia-docker 1.0 이 설치된 경우만: we need to remove it and all existing GPU containers
     docker volume ls -q -f driver=nvidia-docker | xargs -r -I{} -n1 
@@ -160,7 +160,7 @@ sudo shutdown -r now
     # Test nvidia-smi with the latest official CUDA image
     sudo docker run --runtime=nvidia --rm nvidia/cuda:9.0-base nvidia-smi                                   
 ```
-#####6. ufoym/deepo 컨테이너 이미지 당겨오기
+##### ufoym/deepo 컨테이너 이미지 당겨오기
 
 ```
 	- Jupyter Notebook 버전
@@ -212,11 +212,11 @@ sudo shutdown -r now
 
 ```
 
-#####7. 설치 후 AI 서버 성능측정
+##### 설치 후 AI 서버 성능측정
 
 * 출처:  https://hiseon.me/2018/06/23/tensorflow-benchmark/
 * tensorflow 가 최신 버전이 아닌 경우 (nightly version) 로 가져와야 실행됨
-![](http://assest/20190820/tensorflow_tag.png)
+![](http://assests/20190820/tensorflow_tag.png)
 ```
 	docker pull tensorflow/tensorflow:nightly-gpu-py3-jupyter
     nvidia-docker run -it -v /docker/data:/root/data --rm tensorflow/tensorflow:nightly-gpu-py3-jupyter bash
@@ -243,7 +243,7 @@ sudo shutdown -r now
 * window 에서 docker 설치 및 실행Git bash 에서 실행할때:
 	winpty docker run -it --rm tensorflow/tensorflow:nightly-py3 bash
 
-##### 8. GPU 메모리 모니터링
+##### GPU 메모리 모니터링
 
 
 
