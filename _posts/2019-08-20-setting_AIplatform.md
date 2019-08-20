@@ -3,7 +3,7 @@ title: AI platform setting
 description: docker 를 활용해서 Google Cloud Platform 등 다양한 환경에서 동일한 AI 개발 플랫폼 세팅
 categories:
  - tutorial
-tags: AI, GPU, GCP, Docker, Tensorflow, Deep learning, deepo
+tags: AI GPU GCP Docker Tensorflow Deeplearning deepo
 ---
 
 # 설치 요약
