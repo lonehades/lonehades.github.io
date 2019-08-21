@@ -268,3 +268,5 @@ sudo shutdown -r now
 
 	copy nvtop => /root/data
 ```
+
+{% if site.disqus-shortname %}{% include disqus.html %}{% endif %}
