@@ -9,8 +9,8 @@ tags: AI GPU GCP Docker Tensorflow Deeplearning deepo
 # 설치 요약
 * GPU 서버 준비 또는 구글 GCP 가입 및 GPU 쿼터 얻기
 * 우분투 18.04 설치
-* NDVIA 그래픽 드라이버 설치
-* NDVIA GPU 용 Docker 설치
+* NVIDIA 그래픽 드라이버 설치
+* NVIDIA GPU 용 Docker 설치
 * Tensorflow 또는 ufoym/deep 등의 AI 개발 컨테이너 이미지 가져오기
 * 설치 후 서버 성능 측정
 
@@ -18,7 +18,7 @@ tags: AI GPU GCP Docker Tensorflow Deeplearning deepo
 # 구글 클라우드 가입 및 GPU 쿼터 얻기
 * 구글 클라우드 가입 및 기본적인 설정, GPU 쿼터 신청, VM 실행하기
  * 테리의 구글 클라우드로 딥러딩 시작하기:  [https://www.youtube.com/watch?v=d4mz9YIf6Gc&list=PL0oFI08O71gKEXITQ7OG2SCCXkrtid7Fq&index=26&t=0s](https://www.youtube.com/watch?v=d4mz9YIf6Gc&list=PL0oFI08O71gKEXITQ7OG2SCCXkrtid7Fq&index=26&t=0s)
- * mc.ai, GCP VM 에서 NVIDA GPU를 사용해보자:  [https://mc.ai/gcp-vm%EC%97%90%EC%84%9C-nvidia-gpu%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90/](https://mc.ai/gcp-vm%EC%97%90%EC%84%9C-nvidia-gpu%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90/)
+ * mc.ai, GCP VM 에서 NVIDIA GPU를 사용해보자:  [https://mc.ai/gcp-vm%EC%97%90%EC%84%9C-nvidia-gpu%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90/](https://mc.ai/gcp-vm%EC%97%90%EC%84%9C-nvidia-gpu%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90/)
  * 위 mc.ai에서  구글 클라우드 설정 및 쿼터 신청에 더 자세한 내용 참조
 * 가입하기: [https://cloud.google.com/](https://cloud.google.com/) 
 * try free: $300 쿼터 기본 제공
