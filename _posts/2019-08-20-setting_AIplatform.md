@@ -144,19 +144,15 @@ sudo shutdown -r now
 ```   
 
 ##### Nvidia-docker 설치                        
-```
-	# If you have nvidia-docker 1.0 이 설치된 경우만: we need to remove it and all existing GPU containers
-    docker volume ls -q -f driver=nvidia-docker | xargs -r -I{} -n1 
-    docker ps -q -a -f volume={} | xargs -r 
-    docker rm -f
-    sudo apt-get purge -y nvidia-docker
+```	
     # Add the package repositories
-    curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | \sudo apt-key add -distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+    distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+    curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | \sudo apt-key add -
     curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | \sudo tee /etc/apt/sources.list.d/nvidia-docker.list
     sudo apt-get update
     # Install nvidia-docker2 and reload the Docker daemon configuration
     sudo apt-get install -y nvidia-docker2
-    sudo pkill -SIGHUP dockerd
+    sudo systemctl restart docker
     # Test nvidia-smi with the latest official CUDA image
     sudo docker run --runtime=nvidia --rm nvidia/cuda:9.0-base nvidia-smi                                   
 ```
@@ -226,7 +222,7 @@ sudo shutdown -r now
 ```
     python scripts/tf_cnn_benchmarks/tf_cnn_benchmarks.py --num_gpus=2 --nodistortions --model=resnet152 --batch_size=32 --num_warmup_batches=4 --forward_only=True
 ```    
-* CPU 모드로 resnet 152 테스트:
+* CPU 모드로 resnet 152 테스트: (CPU 모드는 NHWC 로 데이터 포맷을 바꾸어줘야 실행됨)
 ```
 	python scripts/tf_cnn_benchmarks/tf_cnn_benchmarks.py --device=cpu --nodistortions --model=resnet152 --data_format=NHWC --batch_size=32 --num_warmup_batches=4 --forward_only=True
 ```    
