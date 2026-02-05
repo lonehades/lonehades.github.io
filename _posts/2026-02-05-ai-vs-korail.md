@@ -1,59 +1,59 @@
 ---
 layout: post
-title: "AI vs Korail: The Siege of the Iron Fortress"
-subtitle: "When the front door is locked, dig a tunnel"
+title: "AI vs Korail: 철옹성 코레일 함락기"
+subtitle: "정문이 잠겼다면 땅굴을 파라"
 date: 2026-02-05 22:45:00 +0900
 categories: [AI Agent, OpenClaw]
 tags: [OpenClaw, Korail, Python, Automation]
 author: Benjamin Ryu
 ---
 
-Hello! Today, I want to share the chaotic yet triumphant journey of building a **"KTX Auto-Reservation Bot"** with my AI assistant (OpenClaw/Zhuge Liang).
+안녕하세요! 오늘은 제 AI 비서(OpenClaw, a.k.a 제갈량)와 함께 **"KTX 자동 예매 봇"**을 만들며 겪은 좌충우돌 삽질기와 성공기를 공유합니다.
 
-### 1. The Prologue: The Iron Fortress
-It started simply. "I need a ticket to Seoul tomorrow, but it's sold out. Let's make a bot."
-I commanded my AI agent:
-*"Hey, open Chrome, go to Korail, and book a ticket."*
+### 1. 서막: 철옹성 코레일
+시작은 단순했습니다. "내일 대전 가는 표가 없네? 봇 시켜서 잡아야지."
+저는 제 전용 AI 에이전트에게 명령했습니다.
+*"야, 크롬 켜서 코레일 들어가서 표 좀 예매해 봐."*
 
-But Korail was not to be trifled with.
-As soon as the AI launched the browser, a warning popped up:
-> **⛔ "Security Program Detected: Browser Automation Blocked"**
+하지만 코레일은 호락호락하지 않았습니다.
+AI가 브라우저를 켜자마자 뜬 경고창:
+> **⛔ "보안 프로그램 감지: 브라우저 자동화 도구 접근 차단"**
 
-My AI tactician said: *"Sire, the walls are too high. We cannot enter through the main gate."*
+제 AI 참모(제갈량)가 말했습니다. *"전하, 성벽이 너무 높습니다. 정문(웹사이트)으로는 들어갈 수 없사옵니다."*
 
-### 2. The Pivot: Digging a Tunnel (Python)
-Since the direct attack failed, we sought a detour.
-Instead of launching a browser, we decided to use **Python code** to talk directly to the server. Thankfully, some pioneers had already built a library called `korail2`.
+### 2. 작전 변경: 땅굴 파기 (Python)
+정공법이 막혔으니 우회로를 찾기로 했습니다.
+웹사이트를 띄우는 대신, **파이썬(Python) 코드**로 서버와 직접 대화하는 방식이죠. 다행히 선구자들이 만들어둔 `korail2`라는 라이브러리가 있었습니다.
 
-*"Good, use this to login and search!"*
-Login success! Search success! Reservation success!
-...or so we thought.
+*"좋아, 이걸로 로그인하고 조회해 봐!"*
+로그인 성공! 조회 성공! 예매 성공!
+...인 줄 알았으나.
 
-### 3. The Crisis: The Bot's Rebellion (Cannot Cancel!)
-I told the bot to cancel the test reservation, but it froze.
+### 3. 위기: 봇의 반란 (취소가 안 돼!)
+테스트를 위해 표를 예매했다가 취소하라고 시켰는데, 봇이 멈췄습니다.
 > **❌ Error: Extra data: line 1 column 5...**
 
-The Korail server sent a response the library couldn't understand, and it crashed. The ticket was booked, but we couldn't cancel it. Money was at risk!
+코레일 서버가 보내주는 응답 메시지를 라이브러리가 해석하지 못하고 뻗어버린 겁니다. 표는 잡혔는데 취소가 안 되는, 돈이 줄줄 샐 위기 상황!
 
-### 4. The Surgery: Patching the Heart
-My AI said: *"Sire, we must perform surgery on the tool's heart (source code)."*
+### 4. 수술 집도: 심장을 고쳐라
+제 AI가 비장하게 말했습니다. *"전하, 도구의 심장(소스코드)을 열어 수술해야 하옵니다."*
 
-We opened up the library guts (`korail2.py`), found the code that was choking on the new server response format, and patched it to forcefully ignore the error and proceed.
+우리는 라이브러리 내부(`korail2.py`)를 뜯어, 오류가 나는 부분을 찾아냈습니다. 서버 응답 형식이 바뀌었음에도 옛날 방식을 고수하던 코드를 수정하고, 강제로 예외를 무시하도록 패치했습니다.
 
-> *"Surgery complete. Retrying cancellation... Success! The ticket is gone!"*
+> *"수술 완료. 다시 취소 시도... 성공! 표가 사라졌습니다!"*
 
-### 5. The Climax: The 5-Minute Watchman
-Obstacles cleared. Now for the **Infinite Loop**.
-*   **Target:** Tomorrow 14:00~16:00 Daejeon -> Seoul
-*   **Interval:** Check every 5 minutes
-*   **Alert:** Telegram me immediately!
+### 5. 클라이맥스: 5분 대기조 가동
+모든 장애물이 사라졌습니다. 이제 남은 건 **무한 루프**.
+*   **목표:** 내일 14:00~16:00 대전→서울
+*   **주기:** 5분마다 감시
+*   **알림:** 잡히면 텔레그램으로 쏴라!
 
-While I was distracted, *Ding!* 🔔
-> **🎉 [Reservation Success!] Daejeon~Seoul KTX 14:35**
-> **🚨 Pay quickly via KorailTalk!**
+코드를 돌려놓고 딴짓을 하던 중, 띠링! 🔔
+> **🎉 [예매 성공!] 대전~서울 KTX 14:35 출발**
+> **🚨 빨리 결제하세요!**
 
-And thus, we secured a sold-out ticket. (Although the bot once booked a ticket from 'Seodaejeon' by mistake and got scolded, but we fixed that logic too. 😂)
+그렇게 우리는 매진된 표를 구해냈습니다. (물론 봇이 실수로 서대전역 표를 잡는 바람에 한번 혼나고 로직을 수정하긴 했지만요. 😂)
 
-### Conclusion
-If it doesn't work, make it work. If the web is blocked, use code.
-With AI, even Korail holiday booking isn't scary! (Maybe?)
+### 결론
+안 되면 되게 하라. 웹이 막히면 코드로 뚫어라.
+AI와 함께라면 코레일 명절 예매도 두렵지 않습니다! (아마도?)
