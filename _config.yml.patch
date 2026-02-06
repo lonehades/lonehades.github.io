@@ -1,0 +1,36 @@
+# ---------------------------------------------------------------
+# Site Information Settings
+# ---------------------------------------------------------------
+
+# ... (기존 설정 유지)
+
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+
+menu:
+  home: /
+  journal: /categories/Journal/
+  ai_agent: /categories/AI%20Agent/
+  openclaw: /categories/OpenClaw/
+  archives: /archives/
+  tags: /tags/
+
+menu_icons:
+  enable: true
+  home: home
+  journal: book
+  ai_agent: robot
+  openclaw: terminal
+  archives: archive
+  tags: tags
+
+# ---------------------------------------------------------------
+# Sidebar Settings
+# ---------------------------------------------------------------
+
+sidebar:
+  position: left
+  display: always # 사이드바 상시 노출로 네비게이션 강화
+  offset: 12
+  offset_float: 0
