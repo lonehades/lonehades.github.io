@@ -117,7 +117,7 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  journal: /categories/Journal/
+  journal: /category/#/Journal
   archives: /archives/
   tags: /tags/
   #categories: /categories/
