@@ -134,13 +134,13 @@ menu:
 menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
-  home: [home, Home]
-  about: [user, About]
-  journal: [book, Journal]
-  categories: [th, Categories]
-  schedule: [calendar, Schedule]
-  tags: [tags, Tags]
-  archives: [archive, Archives]
+  home: home
+  about: user
+  journal: book
+  categories: th
+  schedule: calendar
+  tags: tags
+  archives: archive
   sitemap: sitemap
   commonweal: heartbeat
 
