@@ -8,12 +8,10 @@ title: Dr. Ryu's Neuroscience and AI
 subtitle:
 description: AI, Machine learning, Neuroscience, Evolution
 author: Benjamin Ryu
-# Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url:
 baseurl:
 permalink: pretty
@@ -147,7 +145,7 @@ toc:
 
 sidebar:
   position: left
-  display: always
+  display: post # 모바일 뷰에서의 간섭을 줄이기 위해 다시 post(기본값)로 환원하옵니다.
   offset: 12
   offset_float: 0
 
