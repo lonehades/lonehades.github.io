@@ -119,6 +119,7 @@ menu:
   home: /
   #categories: /categories/
   #about: /about/
+  journal: /journal/
   archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
@@ -135,6 +136,7 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
+  journal: book
   categories: th
   schedule: calendar
   tags: tags
