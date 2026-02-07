@@ -120,7 +120,7 @@ menu:
   journal: /category/#/Journal
   archives: /archives/
   tags: /tags/
-  #categories: /categories/
+  categories: /categories/
   #about: /about/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
