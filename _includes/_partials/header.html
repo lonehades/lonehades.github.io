@@ -48,17 +48,8 @@
             {% if site.menu_icons.enable %}
               <i class="menu-item-icon fa fa-fw fa-{{site.menu_icons[itemName] | default: 'question-circle' | downcase }}"></i> <br />
             {% endif %}
-            {{ __.menu[name] | default: name }}
+            {{ __.menu[name] }}
           </a>
-          {% if name == 'ai_agent' %}
-            <ul class="sub-menu" style="list-style: none; margin: 0; padding: 5px 0 0 20px;">
-               <li class="menu-item menu-item-openclaw">
-                 <a href="{{ '/category/#/OpenClaw' | relative_url }}" rel="section" style="font-size: 0.9em;">
-                   <i class="menu-item-icon fa fa-fw fa-paw"></i> OpenClaw
-                 </a>
-               </li>
-            </ul>
-          {% endif %}
         </li>
       {% endfor %}
 

@@ -121,7 +121,6 @@ menu:
   archives: /archives/
   tags: /tags/
   categories: /categories/
-  ai_agent: /category/#/AI%20Agent
   #about: /about/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
@@ -139,7 +138,6 @@ menu_icons:
   about: user
   journal: book
   categories: th
-  ai_agent: user-secret
   schedule: calendar
   tags: tags
   archives: archive
