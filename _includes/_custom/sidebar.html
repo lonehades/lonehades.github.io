@@ -1,1 +1,16 @@
-
+{% if site.categories.size > 0 %}
+  <div class="sidebar-categories">
+    <div class="sidebar-categories-title">{{ __.title.category }}</div>
+    <ul class="sidebar-categories-list">
+      {% for cat_posts in site.categories %}
+        {% assign cat = cat_posts[0] %}
+        {% assign posts = cat_posts[1] %}
+        {% assign cat_url_encode = cat | url_encode | replace: '+', '%20' %}
+        <li class="sidebar-categories-item">
+          <a class="sidebar-categories-link" href="{{ '/category/#/' | relative_url | append: cat_url_encode }}">{{ cat }}</a>
+          <span class="sidebar-categories-count">{{ posts.size }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}

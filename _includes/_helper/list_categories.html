@@ -8,7 +8,7 @@
       {% assign cat_url_encode = cat | url_encode | replace: '+', '%20' %}
       <a class="category-list-link" href="{{ '/category/#/' | relative_url | append: cat_url_encode }}">{{ cat }}</a>
       <span class="category-list-count">{{ posts.size }}</span>
-    </i>
+    </li>
     {% endfor %}
   </ul>
 {% endcapture %}

@@ -118,9 +118,8 @@ index_with_subtitle: false
 menu:
   home: /
   journal: /category/#/Journal
-  archives: /archives/
-  tags: /tags/
   categories: /categories/
+  archives: /archives/
   #about: /about/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
@@ -265,8 +264,8 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: post
-  #display: always
+  #display: post
+  display: always
   #display: hide
   #display: remove
 

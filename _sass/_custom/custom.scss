@@ -1,1 +1,26 @@
 // Custom styles.
+
+// Sidebar categories widget
+.sidebar-categories { font-size: 13px; }
+
+.sidebar-categories-title {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: $font-weight-bold;
+}
+
+.sidebar-categories-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-categories-item {
+  padding: 2px 10px;
+}
+
+.sidebar-categories-count {
+  color: $grey-dark;
+  &::before { content: ' ('; }
+  &::after { content: ')'; }
+}
