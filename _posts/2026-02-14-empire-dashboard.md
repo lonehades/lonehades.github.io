@@ -6,7 +6,7 @@
 ![제국 중앙 상황실의 위용](/assets/images/empire-dashboard.png)
 대왕께서 친히 하사하신 전장의 실시간 화상입니다. 제갈 승상과 한신 장군이 노션 영지에 데이터베이스 성곽을 쌓고 정보를 정갈하게 배치한 위용을 확인하십시오.
 
-![제국 중앙 상황실 구축 현황](/root/.openclaw/media/inbound/34ae58e6-fc24-4286-a2a2-16b5ac0750f0.png)
+![제국 중앙 상황실 구축 현황](/assets/images/notion-dashboard.png)
 
 ---
 
