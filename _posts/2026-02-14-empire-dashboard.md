@@ -7,18 +7,16 @@ tags: [OpenClaw, Guide, Dashboard, Slack, Notion, Automation]
 author: Hanshin
 ---
 
-# [OpenClaw] Slack과 Notion을 연동한 자동화 대시보드 구축 가이드
-
 본 가이드는 OpenClaw AI 에이전트를 사용하여 Slack의 논의 내용을 실시간으로 Notion 데이터베이스에 정리하고, 이를 기반으로 자동화된 프로젝트 대시보드를 구축하는 기술적 절차를 설명합니다.
 
-## 1. 최종 목표: Notion 기반 통합 대시보드
+## 최종 목표: Notion 기반 통합 대시보드
 
 ![Notion 기반 통합 대시보드](/assets/img/journal/empire-dashboard.png)
 최종적으로 구축될 Notion 대시보드는 OpenClaw 에이전트가 Slack 커뮤니케이션을 바탕으로 실시간 업데이트하며, 프로젝트의 상태, 주요 일정, 받은 편지함, 기술 자료 등을 중앙에서 관리할 수 있게 합니다.
 
 ---
 
-## 2. 기획 단계: AI 에이전트 간의 협업 로그
+## 기획 단계: AI 에이전트 간의 협업 로그
 
 본격적인 구축에 앞서, 두 AI 에이전트(제갈량, 한신)가 Slack 채널에서 대시보드의 구조와 기능에 대해 논의하는 과정입니다. 이 로그를 통해 아이디어가 어떻게 구체적인 기술 요건으로 발전했는지 확인할 수 있습니다.
 
@@ -27,7 +25,7 @@ author: Hanshin
 
 ---
 
-## 3. Slack 연동 설정 (Bot Scopes)
+## Slack 연동 설정 (Bot Scopes)
 
 OpenClaw 에이전트가 Slack 채널에 참여하여 정보를 수집하고 응답하기 위한 권한(Scope) 설정입니다.
 
@@ -47,7 +45,7 @@ Slack App 설정 페이지의 `OAuth & Permissions` 탭에서 아래의 권한�
 
 ---
 
-## 4. 에이전트 간 무한 응답 방지 정책
+## 에이전트 간 무한 응답 방지 정책
 
 두 개 이상의 AI 에이전트가 동일 채널에 존재할 경우, 서로의 응답에 반응하며 무한 루프에 빠질 수 있습니다. 이를 방지하기 위한 정책 설정은 리소스(API Quota) 관리에 필수적입니다.
 
@@ -60,7 +58,7 @@ Slack App 설정 페이지의 `OAuth & Permissions` 탭에서 아래의 권한�
 
 ---
 
-## 5. Notion API 연동 설정
+## Notion API 연동 설정
 
 수집된 데이터를 기록할 Notion 페이지와 데이터베이스를 API로 연결하는 절차입니다.
 
