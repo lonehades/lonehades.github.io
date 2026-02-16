@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Installing Gpt Oss On Private Server And Serving Via Api"
+date: 2026-02-16 09:00:00 +0900
+categories: [AI Platform, AI Agent, OpenClaw]
+tags: [Docker, Chrome-Extension, Tutorial, Remote-Access]
+---
+
 # 사내 서버에 GPT-OSS를 설치하고 API로 서비스하기까지의 여정
 
 > 이 글은 Quadro RTX 8000 4장이 장착된 Ubuntu 서버에 OpenAI의 오픈소스 모델 GPT-OSS(120B/20B)를 Ollama로 구동하고, OpenAI 호환 API로 서비스하기까지의 전 과정을 기록한 것입니다. 특히 ***실제로 막혔던 문제들과 해결 과정***을 중심으로 정리했습니다.
