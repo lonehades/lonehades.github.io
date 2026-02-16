@@ -217,15 +217,8 @@ import io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 ```
 
-#### 스크린샷
-아래는 120B 모델이 웹 UI에서 정상적으로 동작하는 화면과, OpenClaw에서 API를 호출해 정상 응답을 받은 예시입니다.
-
-![](/assets/images/Screenshot_2026-02-16_22-36-18.png){: .center }
-![](/assets/images/Screenshot_2026-02-16_23-00-29.png){: .center }
-
 > **교훈**: Windows에서 LLM 응답을 출력할 때는 반드시 UTF-8 인코딩을 명시하라. LLM은 다양한 유니코드 문자(특수 하이픈, 이모지 등)를 사용한다.
 
-> **교훈**: Windows에서 LLM 응답을 출력할 때는 반드시 UTF-8 인코딩을 명시하라. LLM은 다양한 유니코드 문자(특수 하이픈, 이모지 등)를 사용한다.
 
 ---
 
@@ -309,9 +302,7 @@ A4 문서 약 50페이지 분량을 한 번에 처리할 수 있게 되었습니
 ![](/assets/images/Screenshot_2026-02-16_22-36-18.png){: .center }
 ![](/assets/images/Screenshot_2026-02-16_23-00-29.png){: .center }
 
-> **교훈**: Windows에서 LLM 응답을 출력할 때는 반드시 UTF-8 인코딩을 명시하라. LLM은 다양한 유니코드 문자(특수 하이픈, 이모지 등)를 사용한다.
 
-> **교훈**: Windows에서 LLM 응답을 출력할 때는 반드시 UTF-8 인코딩을 명시하라. LLM은 다양한 유니코드 문자(특수 하이픈, 이모지 등)를 사용한다.
 ### 최종 docker-compose.yml (핵심 부분)
 ```yaml
 version: '3.8'
