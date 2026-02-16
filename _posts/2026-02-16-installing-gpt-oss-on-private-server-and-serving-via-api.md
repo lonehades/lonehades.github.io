@@ -217,6 +217,14 @@ import io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 ```
 
+#### 스크린샷
+아래는 인코딩 오류 발생 화면과 해결 후 콘솔 출력 예시입니다.
+
+![](/assets/images/Screenshot_2026-02-16_22-36-18.png){: .center }
+![](/assets/images/Screenshot_2026-02-16_23-00-29.png){: .center }
+
+> **교훈**: Windows에서 LLM 응답을 출력할 때는 반드시 UTF-8 인코딩을 명시하라. LLM은 다양한 유니코드 문자(특수 하이픈, 이모지 등)를 사용한다.
+
 > **교훈**: Windows에서 LLM 응답을 출력할 때는 반드시 UTF-8 인코딩을 명시하라. LLM은 다양한 유니코드 문자(특수 하이픈, 이모지 등)를 사용한다.
 
 ---
