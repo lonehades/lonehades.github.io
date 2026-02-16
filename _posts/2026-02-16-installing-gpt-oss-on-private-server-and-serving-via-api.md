@@ -218,7 +218,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 ```
 
 #### 스크린샷
-아래는 인코딩 오류 발생 화면과 해결 후 콘솔 출력 예시입니다.
+아래는 120B 모델이 웹 UI에서 정상적으로 동작하는 화면과, OpenClaw에서 API를 호출해 정상 응답을 받은 예시입니다.
 
 ![](/assets/images/Screenshot_2026-02-16_22-36-18.png){: .center }
 ![](/assets/images/Screenshot_2026-02-16_23-00-29.png){: .center }
