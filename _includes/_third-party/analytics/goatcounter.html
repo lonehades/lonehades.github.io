@@ -1,0 +1,71 @@
+{% if site.goatcounter.enable %}
+<!-- GoatCounter tracking script -->
+<script data-goatcounter="https://{{ site.goatcounter.site_code }}.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+<!-- GoatCounter visitor counts -->
+<script>
+(function() {
+  var gcBase = 'https://{{ site.goatcounter.site_code }}.goatcounter.com';
+
+  function fetchCounter(path, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', gcBase + '/counter/' + encodeURIComponent(path) + '.json');
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === 4) {
+        if (xhr.status === 200) {
+          try {
+            var data = JSON.parse(xhr.responseText);
+            callback(null, data);
+          } catch (e) {
+            callback(e, null);
+          }
+        } else {
+          callback(new Error(xhr.status), null);
+        }
+      }
+    };
+    xhr.send();
+  }
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // Page PV (individual post)
+    var pagePvEl = document.getElementById('gc_value_page_pv');
+    if (pagePvEl) {
+      var path = window.location.pathname.replace(/\/+$/, '') || '/';
+      fetchCounter(path, function(err, data) {
+        if (!err && data && data.count) {
+          pagePvEl.textContent = data.count;
+        } else {
+          pagePvEl.textContent = '-';
+        }
+      });
+    }
+
+    // Site total PV
+    var sitePvEl = document.getElementById('gc_value_site_pv');
+    if (sitePvEl) {
+      fetchCounter('TOTAL', function(err, data) {
+        if (!err && data && data.count) {
+          sitePvEl.textContent = data.count;
+        } else {
+          sitePvEl.textContent = '-';
+        }
+      });
+    }
+
+    // Site UV (unique visitors)
+    var siteUvEl = document.getElementById('gc_value_site_uv');
+    if (siteUvEl) {
+      fetchCounter('TOTAL', function(err, data) {
+        if (!err && data && data.count_unique) {
+          siteUvEl.textContent = data.count_unique;
+        } else {
+          siteUvEl.textContent = '-';
+        }
+      });
+    }
+  });
+})();
+</script>
+{% endif %}

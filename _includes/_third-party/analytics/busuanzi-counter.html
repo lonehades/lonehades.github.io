@@ -13,3 +13,22 @@
   {% endif %}
 </div>
 {% endif %}
+
+{% if site.goatcounter.enable %}
+<div class="busuanzi-count">
+  {% if site.goatcounter.site_uv %}
+    <span class="site-uv">
+      {{ site.goatcounter.site_uv_header }}
+      <span class="busuanzi-value" id="gc_value_site_uv"></span>
+      {{ site.goatcounter.site_uv_footer }}
+    </span>
+  {% endif %}
+  {% if site.goatcounter.site_pv %}
+    <span class="site-pv">
+      {{ site.goatcounter.site_pv_header }}
+      <span class="busuanzi-value" id="gc_value_site_pv"></span>
+      {{ site.goatcounter.site_pv_footer }}
+    </span>
+  {% endif %}
+</div>
+{% endif %}
