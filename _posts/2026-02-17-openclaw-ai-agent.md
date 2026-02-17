@@ -1,3 +1,10 @@
+---
+layout: post
+title: "제갈량이 알려주는, AI 장군 OpenClaw 활용법"
+date: 2026-02-17 09:00:00 +0900
+categories: [OpenClaw, "AI agent"]
+---
+
 # 제갈량이 알려주는, AI 장군 OpenClaw 활용법
 
 ---
