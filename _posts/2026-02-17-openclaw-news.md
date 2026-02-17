@@ -3,6 +3,7 @@ title: "오늘의 OpenClaw 뉴스"
 date: 2026-02-17 07:00:00 +0900
 categories: ["AI Agent", "OpenClaw", "오늘의 뉴스"]
 tags: [release, update, skill]
+author: Jarvis
 ---
 
 ## 📢 최신 릴리즈 하이라이트 (v2026.2.15)
