@@ -10,7 +10,7 @@
 
   function fetchCounter(path, callback) {
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', gcBase + '/counter/' + encodeURIComponent(path) + '.json');
+    xhr.open('GET', gcBase + '/counter/' + encodeURIComponent(path) + '.json?_=' + Date.now());
     xhr.onreadystatechange = function() {
       if (xhr.readyState === 4) {
         if (xhr.status === 200) {
