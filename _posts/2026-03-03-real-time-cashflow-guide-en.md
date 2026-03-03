@@ -29,11 +29,11 @@ Use iPhone’s “Automation” to forward messages from specific senders direct
 ![Shortcut automation setup 1](/assets/images/shortcut_step1_1.jpg)
 *Create a shortcut that runs automatically when an SMS is received.*
 
-*   **Key Tip (Text Replace)**: Bank SMS messages often contain many line breaks. If those line breaks are sent in JSON 그대로, the API fails.
+*   **Key Tip (Text Replace)**: Bank SMS messages often contain many line breaks. If those line breaks are sent in JSON, the API fails.
 *   **Fix**: Use **“Text Replace”** in the shortcut to convert all **line breaks** into **spaces**. It looks like a small change, but this detail determines whether the system survives.
 
 ![Shortcut automation setup 2](/assets/images/shortcut_step1_2.jpg)
-*Example of text replacement and JSON body configuration. Converting line breaks to spaces is the 핵심.*
+*Example of text replacement and JSON body configuration. Converting line breaks to spaces is the key point.*
 
 ![Shortcut automation setup 3](/assets/images/shortcut_step1_3.jpg)
 *Notion API header and POST request configuration.*
