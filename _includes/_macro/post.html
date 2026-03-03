@@ -207,6 +207,15 @@
             </span>
           {% endif %}
 
+          {% if site.goatcounter.enable and site.goatcounter.page_pv %}
+            {% unless is_index %}
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv">{{ site.goatcounter.page_pv_header }}
+            <span class="busuanzi-value" id="gc_value_page_pv"></span>{{ site.goatcounter.page_pv_footer }}
+            </span>
+            {% endunless %}
+          {% endif %}
+
           {% if site.post_wordcount.wordcount or site.post_wordcount.min2read %}
             <div class="post-wordcount">
               {% if site.post_wordcount.wordcount %}
