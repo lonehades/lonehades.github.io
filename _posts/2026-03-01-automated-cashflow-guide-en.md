@@ -51,6 +51,8 @@ The final step is statistics. As soon as the transaction details are recorded, t
 
 Many people misunderstand this as just another "AI financial analysis" post. However, this is actually a **blueprint for AI Agent Workflow Design**.
 
+![Personal ERP Architecture](https://mermaid.ink/img/pako:eNqNUstuwjAQ_BVrTy0S9REOnFpU6CHloR6S3ox9SExsnNiPoBTlv_ckL-Ghqm9rn_HMjGe8V6Y6pYxUuPrV98mY-L0I_9E0oV9I1I9p1vIeK2-h_BmaN0D-YvW7W_Vp7Q2QP5vNblLNbXoB_S3Psqy_n_7e_9r1_fD_PnzXhX-H_v0_vTzU_2S9Y-mP9O31O8f_7A0o_7B_lEaP1Kof6W8mD2_P8_m5f6D80_w9yH9M-Wf-38L_97S8CIn8WfL29r_P_6_t6_f2-O21P_mX07-D_Oeo_zX7BfO_8f8?type=png)
+
 1.  **Eliminating Financial API Dependency**: Traditional apps rely on banking APIs (Plaid, Open Banking). But APIs differ by country, authentication is complex, and they often cost money.
 2.  **SMS as a Universal API**: Transaction alerts exist everywhere. By using SMS as the data source, we create a universal bridge.
 3.  **iPhone as an ETL Server**: Your iPhone acts as the gateway, cleaning text and pushing it to the Notion API.
