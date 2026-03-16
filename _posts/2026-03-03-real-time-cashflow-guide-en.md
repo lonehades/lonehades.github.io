@@ -87,7 +87,7 @@ The final step is statistics. As transactions are logged, they automatically lin
 
 Many people misunderstand this as just another "AI financial analysis" post. However, this is actually a **blueprint for AI Agent Workflow Design**.
 
-![Personal ERP Architecture](https://mermaid.ink/img/pako:eNqNU8tuwjAQ_BVrTy0S9VEOXFpU6CHloR6S3ox9SExsnNiPoBTlv_ckL-EhPaS1z3hmxzPeG1OdUkbKn776PhkTvxPhf5sm8AuJ-jHNWt5i5S-UP0PzBshfrH53qz6tvQHyZ7PZTap-el5Af8uzLOvvp7_3v3Z9P_y_D9914d-hf_9PL_f1P1lvWPojfXv9zvE_ewPKP-wfpeGRe_UT_c3k4e1pPj_3D5R_mr8H-Y8p_8z_m_v_npYXIZG_S97e_vf5_7V9_d4ev732J_9y-neQ_xz1v2a_YP43_gC_CbgO?type=png)
+![Personal ERP Architecture](/assets/images/personal_erp_architecture.png)
 
 1.  **Eliminating Financial API Dependency**: Traditional apps rely on banking APIs (Plaid, Open Banking). But APIs differ by country, authentication is complex, and they often cost money.
 2.  **SMS as a Universal API**: Transaction alerts exist everywhere. By using SMS as the data source, we create a universal bridge.
