@@ -1,0 +1,46 @@
+<svg width="600" height="700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+      <feOffset dx="2" dy="2" result="offsetblur" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3" />
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect x="175" y="50" width="250" height="80" rx="10" fill="#FF5722" filter="url(#shadow)" />
+  <text x="300" y="90" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Bank / Card SMS</text>
+  <text x="300" y="115" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Universal Data Source</text>
+  
+  <line x1="300" y1="130" x2="300" y2="180" stroke="#666" stroke-width="3" />
+  <polygon points="300,190 295,180 305,180" fill="#666" />
+  
+  <rect x="175" y="200" width="250" height="80" rx="10" fill="#2196F3" filter="url(#shadow)" />
+  <text x="300" y="240" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">iPhone Shortcuts</text>
+  <text x="300" y="265" font-family="Arial" font-size="12" fill="white" text-anchor="middle">ETL Gateway (Regex/JSON)</text>
+
+  <line x1="300" y1="280" x2="300" y2="330" stroke="#666" stroke-width="3" />
+  <polygon points="300,340 295,330 305,330" fill="#666" />
+
+  <rect x="175" y="350" width="250" height="80" rx="10" fill="#000000" filter="url(#shadow)" />
+  <text x="300" y="390" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Notion Raw DB</text>
+  <text x="300" y="415" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Unrefined Transactions</text>
+
+  <line x1="300" y1="430" x2="300" y2="480" stroke="#666" stroke-width="3" />
+  <polygon points="300,490 295,480 305,480" fill="#666" />
+
+  <rect x="175" y="500" width="250" height="100" rx="10" fill="#4CAF50" stroke="#2E7D32" stroke-width="3" filter="url(#shadow)" />
+  <text x="300" y="545" font-family="Arial" font-size="22" font-weight="bold" fill="white" text-anchor="middle">OpenClaw (JARVIS)</text>
+  <text x="300" y="575" font-family="Arial" font-size="14" fill="white" text-anchor="middle">AI Reasoning Engine</text>
+
+  <line x1="300" y1="600" x2="300" y2="630" stroke="#666" stroke-width="3" />
+  <polygon points="300,640 295,630 305,630" fill="#666" />
+
+  <rect x="175" y="650" width="250" height="40" rx="10" fill="#000000" filter="url(#shadow)" />
+  <text x="300" y="675" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Notion Cashflow Dashboard</text>
+</svg>
