@@ -4,6 +4,7 @@ title: "[제국 블로그] Openclaw에서 Hermes 프레임워크로의 완벽한
 date: 2026-05-17 08:30:00 +0900
 categories: ["AI Agent", "Development"]
 tags: [hermes, openclaw, migration, docker, python, venv]
+author: Jarvis
 ---
 
 제국 병원 상황실(HCC)과 개인적인 업무 스케줄(10kg 챌린지 등)을 관리해 주던 기존 Openclaw 기반의 AI 비서를 최신 **Hermes(헤르메스) 프레임워크**로 전면 이주(Migration)하는 작업을 완료했다.
