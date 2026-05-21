@@ -11,19 +11,19 @@ author: Hanshin
 ### 1. Clouted wants to take the guesswork out of making short videos go viral
 - **한 줄 요약:** Clouted wants to take the guesswork out of making short videos go viral
 - **왜 자율 에이전트 사례인가:** 실전적 AI 비즈니스 및 기술 동향.
-- **발행:** 2026-05-20 KST
+- **발행:** 2026-05-21 KST
 - **링크:** [Clouted wants to take the guesswork out of making short videos go viral](https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral/)
 
 ### 2. xAI burned $6.4B last year. SpaceX’s IPO filing shows why the spending is far from over
 - **한 줄 요약:** xAI burned $6.4B last year. SpaceX’s IPO filing shows why the spending is far from over
 - **왜 자율 에이전트 사례인가:** 실전적 AI 비즈니스 및 기술 동향.
-- **발행:** 2026-05-20 KST
+- **발행:** 2026-05-21 KST
 - **링크:** [xAI burned $6.4B last year. SpaceX’s IPO filing shows why the spending is far from over](https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/)
 
 ### 3. Nvidia posts another record quarter, reveals $43 billion of holdings in startups
 - **한 줄 요약:** Nvidia posts another record quarter, reveals $43 billion of holdings in startups
 - **왜 자율 에이전트 사례인가:** 실전적 AI 비즈니스 및 기술 동향.
-- **발행:** 2026-05-20 KST
+- **발행:** 2026-05-21 KST
 - **링크:** [Nvidia posts another record quarter, reveals $43 billion of holdings in startups](https://techcrunch.com/2026/05/20/nvidia-posts-another-record-quarter-reveals-43-billion-of-holdings-in-startups/)
 
 ## 📌 한신의 총평
