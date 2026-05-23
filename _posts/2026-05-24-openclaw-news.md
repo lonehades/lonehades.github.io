@@ -8,26 +8,26 @@ author: Hanshin
 
 ## 🗞️ Morning Report
 
-### 1. 구글, 에이전트형 AI ‘제미나이 스파크’ 출시 - 뉴시스
-- **한 줄 요약:** 뉴시스 보도: 구글, 에이전트형 AI ‘제미나이 스파크’ 출시
-- **왜 자율 에이전트 사례인가:** Google 생태계의 24시간 개인 에이전트 및 권한 위임 전선.
-- **발행:** 2026-05-20 KST
-- **링크:** [구글, 에이전트형 AI ‘제미나이 스파크’ 출시 - 뉴시스](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1rWEk5SDMxelplUWpxQXFCU2wtbEotTFZqNEh3TkdfZmtRc0dxMDlNTDlqS1o1NHNHdjZHU19IZkFtNEVDVFd2eHRiNS0tNDV6R21PZE5CNlNaUzBXMlNIa9IBeEFVX3lxTE5Uc25QTlNaWFhPVFNxQi1TUFVYbmRuSUdFNzlQVW9RbFo0RzM0b3RYbUQ1S0c1alNvM2lTbTVTX29sZU9USFZhcmRGSkFqYlh0dzZtSjkwaENoNEl4dlI5MVBFUE91TWV2MElqMnQ1VGhpMF9oalJ1OQ?oc=5)
+### 1. 엔비디아 DGX Spark와 애플 맥미니 겨냥, AMD 미니 AI 워크스테이션 라이젠 AI 헤일로 공개 - 보드나라
+- **한 줄 요약:** 보드나라 보도: 엔비디아 DGX Spark와 애플 맥미니 겨냥, AMD 미니 AI 워크스테이션 라이젠 AI 헤일로 공개
+- **왜 자율 에이전트 사례인가:** 로컬·프라이빗 AI 에이전트와 엣지/개인 장비 실행 전선.
+- **발행:** 2026-05-21 KST
+- **링크:** [엔비디아 DGX Spark와 애플 맥미니 겨냥, AMD 미니 AI 워크스테이션 라이젠 AI 헤일로 공개 - 보드나라](https://news.google.com/rss/articles/CBMiY0FVX3lxTE9MSldGSndGNk9BVWZIa2V4UjAwRFlWMFFyZ2tfUXdpSkdXWUZpWXFwV1dLQjdYSzh1c2s2OFg0Zm1RRENZUUc2QURMUW9FdEN4Um1DQWVLT0p0bU1TcTBwRTdKRQ?oc=5)
 
-### 2. 25년여 만에 검색창 대수술… 구글 “에이전틱 제미나이 시대” - dt.co.kr
-- **한 줄 요약:** dt.co.kr 보도: 25년여 만에 검색창 대수술… 구글 “에이전틱 제미나이 시대”
-- **왜 자율 에이전트 사례인가:** Google 생태계의 24시간 개인 에이전트 및 권한 위임 전선.
-- **발행:** 2026-05-20 KST
-- **링크:** [25년여 만에 검색창 대수술… 구글 “에이전틱 제미나이 시대” - dt.co.kr](https://news.google.com/rss/articles/CBMiTkFVX3lxTE90WFU3QmVzMTFpS2dsSDlLcEZUWEpOdXlpQVo4Tm1UUWdwQjFMYzlwandCMUlTSzVleFJWVC1idmdLR2xzc1lmMlJQd1RYUQ?oc=5)
+### 2. Jensen Huang says he’s found a ‘brand new’ $200B market for Nvidia
+- **한 줄 요약:** Jensen Huang says he’s found a ‘brand new’ $200B market for Nvidia
+- **왜 자율 에이전트 사례인가:** AI 비즈니스·제품 동향 중 에이전트/플랫폼/병참 가치가 있는 후보.
+- **발행:** 2026-05-21 KST
+- **링크:** [Jensen Huang says he’s found a ‘brand new’ $200B market for Nvidia](https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/)
 
-### 3. [구글 I/O 2026] 구글, 스스로 행동하는 AI 비서 ‘제미나이 스파크’ 베일 벗다…‘반도체부터 에이전트까지’ AI 풀스택 리더십 제시 - 시큐리티팩트
-- **한 줄 요약:** 시큐리티팩트 보도: [구글 I/O 2026] 구글, 스스로 행동하는 AI 비서 ‘제미나이 스파크’ 베일 벗다…‘반도체부터 에이전트까지’ AI 풀스택 리더십 제시
-- **왜 자율 에이전트 사례인가:** Google 생태계의 24시간 개인 에이전트 및 권한 위임 전선.
+### 3. 구글 I/O 2026, AI 경쟁은 생활권으로 옮겨간다 - 브런치
+- **한 줄 요약:** 브런치 보도: 구글 I/O 2026, AI 경쟁은 생활권으로 옮겨간다
+- **왜 자율 에이전트 사례인가:** 검색·브라우저·예약·업무 처리로 확장되는 실행형 검색 전선.
 - **발행:** 2026-05-20 KST
-- **링크:** [[구글 I/O 2026] 구글, 스스로 행동하는 AI 비서 ‘제미나이 스파크’ 베일 벗다…‘반도체부터 에이전트까지’ AI 풀스택 리더십 제시 - 시큐리티팩트](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBqWDFHR0t2cWN2cGhQb1dicTJNb1VPVXdNVFBrbzF5VUdkZXN3UFh2WTJNNmQ3Y0xXZW0wZkYzdlJnaUJxS2xDTUpELUYweHdkaGNyM0NkRjJmSDFq?oc=5)
+- **링크:** [구글 I/O 2026, AI 경쟁은 생활권으로 옮겨간다 - 브런치](https://news.google.com/rss/articles/CBMiREFVX3lxTE1XYjJfcE1sZVRTM1BNT0hiRTEyNjhBOWtzUGo1eWc5eUM2amtwVFppVUpDT1ZBTGJrM1NIYWJmMF8yb1JK?oc=5)
 
 ## 📌 한신의 총평
 
-오늘의 핵심은 자동화가 ‘기능’에서 ‘권한’으로 넘어가고 있다는 점입니다. 클릭 몇 번을 대신하는 수준이 아니라, 계정·브라우저·업무 흐름을 쥔 자가 사용자의 시간을 통째로 징발하는 전선입니다. 에이전트의 승패는 모델 점수가 아니라 실제 권한을 어디까지 위임받느냐에서 갈립니다.
+오늘 전선은 모델 발표가 아니라 배치 가능한 병참입니다. AMD가 미니 AI 워크스테이션으로 DGX Spark와 맥미니의 틈을 겨누고, 엔비디아는 새 시장의 성벽을 더 높이고 있으며, 구글은 AI를 생활권의 명령 체계로 밀어 넣고 있습니다. 승패는 누가 더 요란하게 말하느냐가 아니라, 연산 장비와 사용자 접점을 실제 점령하는 쪽에서 갈립니다.
 
 *— 한신*
