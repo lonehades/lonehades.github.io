@@ -9,25 +9,25 @@ author: Hanshin
 ## 🗞️ Morning Report
 
 ### 1. Test and improve your AI agents with AI agent evaluation - Caledonian Record
-- **3줄 요약 1:** Test and improve your AI agents with AI agent evaluation는 에이전트가 단순 응답기를 넘어 실제 업무 흐름에 진입하고 있음을 보여줍니다.
-- **3줄 요약 2:** 브라우저, 계정, 파일, 사내 시스템을 다루는 순간 AI의 가치는 말솜씨가 아니라 실행권에서 결정됩니다.
-- **3줄 요약 3:** 이 전선의 승패는 사용자 시간을 누가 위임받고 안전하게 완수하느냐에 달렸습니다.
+- Test and improve your AI agents with AI agent evaluation는 에이전트가 단순 응답기를 넘어 실제 업무 흐름에 진입하고 있음을 보여줍니다.
+- 브라우저, 계정, 파일, 사내 시스템을 다루는 순간 AI의 가치는 말솜씨가 아니라 실행권에서 결정됩니다.
+- 이 전선의 승패는 사용자 시간을 누가 위임받고 안전하게 완수하느냐에 달렸습니다.
 - **왜 자율 에이전트 사례인가:** 범용 에이전트·멀티에이전트 연구/제품 전선.
 - **발행:** 2026-06-30 KST
 - **링크:** [Test and improve your AI agents with AI agent evaluation - Caledonian Record](https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVWtYYkFvT2NrNmFXTDRDU3NST2poUHRjSW14MFlBc2kxMjJkd1c5bnFWdnlHTlljQmtIMWlKQXZUVFc1a3R0eGQ1Njk0dXoxeHdhal9QZkY3eVJiNllQMEVReW5DdXpsRlhZbHdhcUdxNlVmbHdaQXA0X1V1ZnE0TkUwUVJrVGhVS3llU1poX29Wb0dCc21mYWVCQll3Q3Q1Q1ZNMkRmYVNVLXdLamJUZExvRHl0bkxZLWwyRWFnd01KeGZSQTFTVnY2akJUbEhqZHVvQ2dR?oc=5)
 
 ### 2. Mapping Europe’s AI Workforce Opportunity
-- **3줄 요약 1:** Mapping Europe’s AI Workforce Opportunity는 에이전트가 단순 응답기를 넘어 실제 업무 흐름에 진입하고 있음을 보여줍니다.
-- **3줄 요약 2:** 브라우저, 계정, 파일, 사내 시스템을 다루는 순간 AI의 가치는 말솜씨가 아니라 실행권에서 결정됩니다.
-- **3줄 요약 3:** 이 전선의 승패는 사용자 시간을 누가 위임받고 안전하게 완수하느냐에 달렸습니다.
+- Mapping Europe’s AI Workforce Opportunity는 에이전트가 단순 응답기를 넘어 실제 업무 흐름에 진입하고 있음을 보여줍니다.
+- 브라우저, 계정, 파일, 사내 시스템을 다루는 순간 AI의 가치는 말솜씨가 아니라 실행권에서 결정됩니다.
+- 이 전선의 승패는 사용자 시간을 누가 위임받고 안전하게 완수하느냐에 달렸습니다.
 - **왜 자율 에이전트 사례인가:** OpenAI 공식 제품·에이전트·모델 전선.
 - **발행:** 2026-06-29 KST
 - **링크:** [Mapping Europe’s AI Workforce Opportunity](https://openai.com/index/mapping-ai-jobs-transition-eu)
 
 ### 3. Warner bill would create federally vetted list for secure, trustworthy AI agents - CyberScoop
-- **3줄 요약 1:** Warner bill would create federally vetted list for secure, trustworthy AI agents는 에이전트가 단순 응답기를 넘어 실제 업무 흐름에 진입하고 있음을 보여줍니다.
-- **3줄 요약 2:** 브라우저, 계정, 파일, 사내 시스템을 다루는 순간 AI의 가치는 말솜씨가 아니라 실행권에서 결정됩니다.
-- **3줄 요약 3:** 이 전선의 승패는 사용자 시간을 누가 위임받고 안전하게 완수하느냐에 달렸습니다.
+- Warner bill would create federally vetted list for secure, trustworthy AI agents는 에이전트가 단순 응답기를 넘어 실제 업무 흐름에 진입하고 있음을 보여줍니다.
+- 브라우저, 계정, 파일, 사내 시스템을 다루는 순간 AI의 가치는 말솜씨가 아니라 실행권에서 결정됩니다.
+- 이 전선의 승패는 사용자 시간을 누가 위임받고 안전하게 완수하느냐에 달렸습니다.
 - **왜 자율 에이전트 사례인가:** 범용 에이전트·멀티에이전트 연구/제품 전선.
 - **발행:** 2026-06-30 KST
 - **링크:** [Warner bill would create federally vetted list for secure, trustworthy AI agents - CyberScoop](https://news.google.com/rss/articles/CBMidEFVX3lxTE5LTkpzT2h5eWpzU0ZCWHQxQzkybm5XSjJheFVsMlBiYVNyVmNhcGdIT2NNZ0Fkc29FVEJYajFVdENja2VHeHhUMlVzUV9uakZhZ2dTUFVBRmpMbDdoQWxGeHVMYU5QZzUzMGlxVXNCdmhqbndF?oc=5)
