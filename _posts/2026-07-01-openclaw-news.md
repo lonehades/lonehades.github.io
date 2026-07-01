@@ -9,25 +9,25 @@ author: Hanshin
 ## 🗞️ Morning Report
 
 ### 1. Introducing GeneBench-Pro
-- Introducing GeneBench-Pro는 에이전트가 단순 응답기를 넘어 실제 업무 흐름에 진입하고 있음을 보여줍니다.
-- 브라우저, 계정, 파일, 사내 시스템을 다루는 순간 AI의 가치는 말솜씨가 아니라 실행권에서 결정됩니다.
-- 이 전선의 승패는 사용자 시간을 누가 위임받고 안전하게 완수하느냐에 달렸습니다.
+- OpenAI가 생물학·유전체 과제에서 모델 성능을 재는 GeneBench-Pro를 소개했습니다.
+- 단순 Q&A가 아니라 전문 지식, 추론, 실험 설계에 가까운 작업을 평가하려는 벤치마크입니다.
+- AI가 연구 보조자에서 과학 업무의 실행 파트너로 넘어가려면 이런 도메인별 검정대가 필요합니다.
 - **왜 자율 에이전트 사례인가:** OpenAI 공식 제품·에이전트·모델 전선.
 - **발행:** 2026-06-30 KST
 - **링크:** [Introducing GeneBench-Pro](https://openai.com/index/introducing-genebench-pro)
 
 ### 2. Core dump epidemiology: fixing an 18-year-old bug
-- Core dump epidemiology: fixing an 18-year-old bug는 에이전트가 단순 응답기를 넘어 실제 업무 흐름에 진입하고 있음을 보여줍니다.
-- 브라우저, 계정, 파일, 사내 시스템을 다루는 순간 AI의 가치는 말솜씨가 아니라 실행권에서 결정됩니다.
-- 이 전선의 승패는 사용자 시간을 누가 위임받고 안전하게 완수하느냐에 달렸습니다.
+- OpenAI가 18년 된 코어 덤프 관련 데이터 인프라 버그를 추적·수정한 사례를 공개했습니다.
+- 대규모 시스템에서는 오래된 저수준 결함 하나가 관측, 디버깅, 안정성 판단 전체를 왜곡할 수 있습니다.
+- 에이전트 운영도 결국 화려한 모델보다 장애를 정확히 포착하는 데이터 병참 위에서 굴러갑니다.
 - **왜 자율 에이전트 사례인가:** OpenAI 공식 제품·에이전트·모델 전선.
 - **발행:** 2026-06-30 KST
 - **링크:** [Core dump epidemiology: fixing an 18-year-old bug](https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug)
 
 ### 3. Inside Genebench-Pro
-- Inside Genebench-Pro는 에이전트가 단순 응답기를 넘어 실제 업무 흐름에 진입하고 있음을 보여줍니다.
-- 브라우저, 계정, 파일, 사내 시스템을 다루는 순간 AI의 가치는 말솜씨가 아니라 실행권에서 결정됩니다.
-- 이 전선의 승패는 사용자 시간을 누가 위임받고 안전하게 완수하느냐에 달렸습니다.
+- GeneBench-Pro의 내부 사례를 통해 생명과학 과제를 어떻게 평가 항목으로 쪼갰는지 설명한 글입니다.
+- 모델이 논문 지식을 외우는지보다 실제 연구 상황에서 문제를 구조화하고 판단하는지가 관건입니다.
+- 전문 분야 에이전트의 승부는 범용 말재주가 아니라 해당 영역의 검증 가능한 작업 수행력에서 갈립니다.
 - **왜 자율 에이전트 사례인가:** OpenAI 공식 제품·에이전트·모델 전선.
 - **발행:** 2026-06-30 KST
 - **링크:** [Inside Genebench-Pro](https://openai.com/index/genebench-pro/case-studies)
